@@ -1,54 +1,76 @@
-# Inventory Manager (C# WinForms)
+# C# Manager Programs
 
-C# WinForms 기반으로 구현한 **재고 관리 프로그램**입니다.  
-제품 등록, 검색, 재고 입출고 관리 및 정렬 기능을 구현했습니다.
+C#과 WinForms를 활용하여 제작한 **데이터 관리 프로그램 모음 프로젝트**입니다.  
+파일 기반 데이터 관리와 기본적인 사용자 인터페이스를 통해  
+CRUD(Create, Read, Update, Delete) 기능을 구현했습니다.
 
-```
+이 저장소에는 다음 두 가지 관리 프로그램이 포함되어 있습니다.
 
-## Architecture
-
-InventoryManager
-┣ Models
-┣ Services
-┣ Forms
-┣ Utils
-┗ Program.cs
-
-```
 ---
+
+#  Inventory Manager
+
+재고 데이터를 관리하기 위한 프로그램입니다.  
+제품 등록, 수정, 검색 및 재고 부족 조회 기능을 제공합니다.
 
 ## 주요 기능
 
-- 제품 등록 / 수정 / 삭제 (CRUD)
-- 제품 목록 조회
+- 제품 등록 / 수정 / 삭제
 - 제품 검색 기능
-- 재고 입고 / 출고 관리
-- 재고 부족 조회
-- 이름순 / 수량순 정렬
-- JSON 기반 데이터 저장
+- 재고 수량 관리
+- 재고 부족 제품 조회
+- JSON 파일 기반 데이터 저장
 
----
-
-## 실행 화면
-
-### 전체 재고 관리 화면
-![Inventory Manager](InventoryManager/InventoryManager/docs/inventory-main.png)
-
-### 제품 검색 기능
-![Search](InventoryManager/InventoryManager/docs/inventory-search.png)
-
-### 재고 관리 기능 (입고 / 출고)
-![Stock Control](InventoryManager/InventoryManager/docs/inventory-stock.png)
-
-### 조회 및 정렬 기능
-![Sort](InventoryManager/InventoryManager/docs/inventory-sort.png)
-
----
-
-## 기술 스택
+## 사용 기술
 
 - C#
-- .NET Framework
+- .NET
 - WinForms
 - JSON 데이터 처리
 
+---
+
+#  Membership Manager
+
+회원 정보를 관리하는 프로그램입니다.  
+회원 등록, 로그인 기능 및 관리자 권한 구분 기능을 구현했습니다.
+
+## 주요 기능
+
+- 회원 등록 / 수정 / 삭제
+- 로그인 시스템
+- 관리자 / 일반 사용자 권한 구분
+- SHA256 기반 비밀번호 해싱
+- JSON 파일 기반 회원 데이터 관리
+
+## 사용 기술
+
+- C#
+- .NET
+- WinForms
+- SHA256 암호화
+- JSON 데이터 처리
+
+---
+
+#  프로젝트 구조
+
+
+InventoryManager
+│
+├ InventoryManager
+│ └ 재고 관리 프로그램
+│
+├ MembershipManager
+│ └ 회원 관리 프로그램
+│
+└ README.md
+
+
+---
+
+#  GitHub Repository
+
+https://github.com/Kimwonbeom0102/InventoryManager
+
+https://github.com/Kimwonbeom0102/MemebershipManager
