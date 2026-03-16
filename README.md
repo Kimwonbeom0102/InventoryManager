@@ -40,7 +40,7 @@ InventoryManager
 ![Stock Control](InventoryManager/InventoryManager/docs/inventory-stock.png)
 
 ### 조회 및 정렬 기능
-![Sort](InventoryManager/docs/inventory-sort.png)
+![Sort](InventoryManager/InventoryManager/docs/inventory-sort.png)
 
 ---
 
