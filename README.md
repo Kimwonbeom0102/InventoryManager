@@ -13,6 +13,9 @@ CRUD(Create, Read, Update, Delete) 기능을 구현했습니다.
 재고 데이터를 관리하기 위한 프로그램입니다.  
 제품 등록, 수정, 검색 및 재고 부족 조회 기능을 제공합니다.
 
+- GitHub Repository
+- https://github.com/Kimwonbeom0102/InventoryManager
+
 ## 주요 기능
 
 - 제품 등록 / 수정 / 삭제
@@ -35,6 +38,9 @@ CRUD(Create, Read, Update, Delete) 기능을 구현했습니다.
 회원 정보를 관리하는 프로그램입니다.  
 회원 등록, 로그인 기능 및 관리자 권한 구분 기능을 구현했습니다.
 
+- GitHub Repository
+- https://github.com/Kimwonbeom0102/MemebershipManager
+- 
 ## 주요 기능
 
 - 회원 등록 / 수정 / 삭제
@@ -67,10 +73,3 @@ InventoryManager
 └ README.md
 ```
 
----
-
-#  GitHub Repository
-
-- https://github.com/Kimwonbeom0102/InventoryManager
-
-- https://github.com/Kimwonbeom0102/MemebershipManager
