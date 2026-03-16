@@ -53,8 +53,8 @@ CRUD(Create, Read, Update, Delete) 기능을 구현했습니다.
 
 ---
 
+```
 #  프로젝트 구조
-
 
 InventoryManager
 │
@@ -65,12 +65,12 @@ InventoryManager
 │ └ 회원 관리 프로그램
 │
 └ README.md
-
+```
 
 ---
 
 #  GitHub Repository
 
-https://github.com/Kimwonbeom0102/InventoryManager
+- https://github.com/Kimwonbeom0102/InventoryManager
 
-https://github.com/Kimwonbeom0102/MemebershipManager
+- https://github.com/Kimwonbeom0102/MemebershipManager
